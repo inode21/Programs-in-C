@@ -12,7 +12,7 @@ void DisplayRange(int iStart, int iEnd)
         return;
     }
 
-    for(iCnt = iStart; iCnt <= iEnd; iCnt++)
+    for(iCnt = iEnd; iCnt >= iStart; iCnt--)
     {
         printf("%d\t",iCnt);
     }
