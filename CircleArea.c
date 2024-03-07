@@ -10,14 +10,15 @@ double Circle_Area(float radius)
 
 int main()
 {
-    float fRadius = 0.0, fRet = 0.0;
+    float fRadius = 0.0;
+    double dRet = 0.0;
 
     printf("Enter radius:\n");
     scanf("%f",&fRadius);
 
-    fRet = Circle_Area(fRadius);
+    dRet = Circle_Area(fRadius);
 
-    printf("Area of circle with radius %f is %f.",fRadius,fRet);
+    printf("Area of circle with radius %f is %f.",fRadius,dRet);
 
     return 0;
 }
